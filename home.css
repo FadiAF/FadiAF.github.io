@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+.topbar{
+    position: fixed;
+    background-color: #2b2b2b;
+    margin: 0;
+    padding: 10px 0px;
+    color: white;
+    font-family: Impact;
+}
+.homebutton, .aboutbutton, .prtobutton, .contactbutton{
+    background: transparent;
+    background-color: transparent;
+    margin: 0;
+    padding: 5px 0px;
+    transition: 0.4s;
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    font-size: 20px;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.homebutton:hover, .aboutbutton:hover, .prtobutton:hover, .contactbutton:hover{
+    color: goldenrod;
+    border-bottom: 1px solid white;
+}
+
+.Home{
+    padding-top: 60px;
+    background-color: #444444;
+    height: 639px;
+}
+.about{
+    height: 639px;
+    padding: 0;
+}
+.porto{
+    padding: 0;
+    height: 639px;
+    background-color: #444444;
+    margin: 0;
+}
+.webporto{
+    color: white;
+}
+.unityporto{
+    color: white;
+}
+a{
+    color: white;
+}
+.cont{
+    margin: 0;
+    padding: 0;
+    height: 639px;
+    background-color: #443434;
+}
+.custom-btn {
+  padding: 10px 25px;
+  font-family: Impact;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  
+}
+.btn-3 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before, .btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover:before {height: 100%;}
+.btn-3:hover:after {width: 100%;}
+.btn-3 span:before, .btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {height: 100%;}
+.btn-3 span:hover:after {width: 100%;}
+.webporto:hover, .unityporto:hover{
+    width: 25%;
+}
